@@ -17,7 +17,7 @@ const Pricing = () => {
               Flexible pricing for Individuals and Organizations
             </h3>
 
-            <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
+            {/* <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
               <button
                 className={clsx("pricing-head_btn", monthly && "text-p4")}
                 onClick={() => setMonthly(true)}
@@ -37,7 +37,7 @@ const Pricing = () => {
                   !monthly && "translate-x-full",
                 )}
               />
-            </div>
+            </div> */}
 
             <div className="pricing-bg">
               <img
@@ -116,7 +116,7 @@ const Pricing = () => {
                       />
                     </div>
                     <div className="small-1 relative top-3 ml-1 uppercase">
-                      / design
+                      / project
                     </div>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
-                  <Button icon={plan.icon}>Get Started</Button>
+                  <Button icon={plan.icon}>Select</Button>
                 </div>
 
                 {index === 1 && (

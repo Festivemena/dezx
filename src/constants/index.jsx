@@ -3,22 +3,22 @@ export const features = [
     id: "0",
     icon: "/images/feature-1.png",
     caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    title: "Swift Design",
+    text: "One Deadline at a time with our lightning-fast design solutions. Timely design delivery for time-sensitive clients, competitve markets and seamless collaboration. Speed meets satisfaction and creativity meets urgency. Stay ahead of the curve with adaptive solutions that prioritize speed, precision and unparalleled results.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "DezX",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
     caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    title: "Reliable",
+    text: "Build on trust, communication and precision. Our services guarantee consistent quality crafted with attention to details, pricing clarity eliminatingsurprises and hidden costs, and informed decision-making through open communication. Partner with us for long-term Success.",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "DezX",
     },
   },
 ];
@@ -27,85 +27,49 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Responsive Customer Service",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "High-Resolution Design",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Brand Color Accuracy",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "Competitor Research",
   },
 ];
 
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "How do I receive my design files?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We send files via Emails, Whatsapp or Telegram.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "What is your response time?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We respond to inquiries within 24 hours.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Who owns the design rights?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Client retains full ownership of final designs.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "What file formats do you provide?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "4",
-    question: "Do you have corporate plans?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "5",
-    question: "What happens when I’m out of storage?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "6",
-    question: "Can I upgrade my plan?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "9",
-    question: "I’m locked out of my account what do I do?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "JPEG, PNG, PDF, PSD, SVG.",
   },
 ];
 
@@ -113,14 +77,14 @@ export const plans = [
   {
     id: "0",
     title: "Lite",
-    priceMonthly: 19,
-    priceYearly: 12,
+    priceMonthly: 7,
+    priceYearly: 7,
     caption: "Best for solo creators",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "Logo Design (1 concept, 2 revisions)",
+      "Business Card Design (1 concept, 2 revisions)",
+      "Social Media Graphics (2 concepts, 1 revision)",
+      "Flyer Design (1 concept, 1 revision)",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
@@ -128,14 +92,14 @@ export const plans = [
   {
     id: "1",
     title: "Organization",
-    priceMonthly: 79,
-    priceYearly: 59,
+    priceMonthly: 30,
+    priceYearly: 30,
     caption: "Most popular plan",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Logo Design (2 concepts, 2 revisions)",
+      "Brand Identity (2 concepts, 2 revisions)",
+      "Social Media Graphics (5 concepts, 1 revisions)",
+      "Consultation (2 hours, 1 review)",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
@@ -143,14 +107,14 @@ export const plans = [
   {
     id: "2",
     title: "Personal",
-    priceMonthly: 39,
-    priceYearly: 29,
+    priceMonthly: 15,
+    priceYearly: 15,
     caption: "Exclusively for teams",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "Logo Design (2 concepts, 2 revisions)",
+      "Business Card Design (2 concepts, 2 revisions)",
+      "Social Media Graphics (2 concepts, 1 revision)",
+      "Flyer Design (2 concepts, 1 revision)",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -160,51 +124,35 @@ export const plans = [
 export const testimonials = [
   {
     id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
-    avatarUrl: "/images/testimonials/jessica-saunders.png",
+    name: "Akinbinuade Boluwatife",
+    role: "Mera-B",
+    avatarUrl: "/images/bolu.jpg",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "DezX's customer support is second to none! They’re like my tech superheroes.",
   },
   {
     id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/mark-erixon.png",
+    name: "Hannah Anuoluwapo Afara",
+    role: "The Flamecess 🔥",
+    avatarUrl: "/images/anna.jpg",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "I was skeptical at first, now I can't imagine our content operations without DezX.",
   },
   {
     id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
-    avatarUrl: "/images/testimonials/melanie-hurst.png",
+    name: "Marvelous Ibiyemi",
+    role: "Marv",
+    avatarUrl: "/images/marv.jpg",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "Adopting DezX was a breeze. It's made everyday tasks so much simpler.",
   },
   {
     id: "3",
-    name: "Alicia Barker",
-    role: "Cyberleap",
-    avatarUrl: "/images/testimonials/alicia-barker.png",
+    name: "Amanokhai Onomoisi Aisha",
+    role: "Angelco",
+    avatarUrl: "/images/angel.jpg",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
-  },
-  {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
-    comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
-  },
-  {
-    id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "The designs are like having a personal fortune teller. I really love DezX's work ethic.",
   },
 ];
 

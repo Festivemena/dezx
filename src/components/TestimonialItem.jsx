@@ -15,7 +15,7 @@ const TestimonialItem = ({ item, containerClassName }) => {
           <img
             src={item.avatarUrl}
             alt={item.name}
-            className="size-full object-cover"
+            className="size-full rounded-full object-cover"
           />
         </div>
         <div>

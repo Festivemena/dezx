@@ -2,11 +2,11 @@ import { Element } from "react-scroll";
 import { links, logos } from "../constants/index.jsx";
 import { Marker } from "../components/Marker.jsx";
 
-const Download = () => {
+const Gallery = () => {
   return (
     <section>
       <Element
-        name="download"
+        name="gallery"
         className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
       >
         <div className="container">
@@ -70,16 +70,16 @@ const Download = () => {
             </div>
           </div>
 
-          <ul className="mt-24 flex justify-center max-lg:hidden">
+          {/* <ul className="mt-24 flex justify-center max-lg:hidden">
             {logos.map(({ id, url, width, height, title }) => (
               <li key={id} className="mx-10">
                 <img src={url} width={width} height={height} alt={title} />
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       </Element>
     </section>
   );
 };
-export default Download;
+export default Gallery;
