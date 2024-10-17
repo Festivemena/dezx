@@ -14,10 +14,10 @@ const Hero = () => {
               Your vision, X-ecuted!
             </h1>
             <p className="max-w-440 mb-14 body-1 max-md:mb-10">
-            We design tools that are effortless to use, quick to master, and packed with powerful features—enabling you to create stunning visuals with ease
-            </p>
+              We create intelligent design systems that blends simplicity, speed, and compelling visual storytelling - enabling organizations to effortlessly convey their message, elevate their brand, and captivate their audience.
+             </p>
             <LinkScroll to="features" offset={-100} spy smooth>
-              <Button icon="/images/zap.svg">Contact us now</Button>
+              <Button icon="/images/zap.svg">Contact us</Button>
             </LinkScroll>
           </div>
 

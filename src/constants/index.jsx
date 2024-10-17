@@ -112,7 +112,7 @@ export const faq = [
 export const plans = [
   {
     id: "0",
-    title: "Core",
+    title: "Lite",
     priceMonthly: 19,
     priceYearly: 12,
     caption: "Best for solo creators",
@@ -127,7 +127,7 @@ export const plans = [
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "Organization",
     priceMonthly: 79,
     priceYearly: 59,
     caption: "Most popular plan",
@@ -142,7 +142,7 @@ export const plans = [
   },
   {
     id: "2",
-    title: "Team",
+    title: "Personal",
     priceMonthly: 39,
     priceYearly: 29,
     caption: "Exclusively for teams",
